@@ -1,1 +1,324 @@
-/* место для вашего кода */
+@import url(/fonts/fonts.css);
+.header_logo {
+    width: 129px;
+    height: 104px;
+    position: relative;
+    left: 27px;
+}
+.header_wrapper{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 97px;
+   
+}
+.logo_link{
+    width: 140px;
+    height: 114px;
+    position: relative;
+    right: 51px;
+    bottom: 68px;
+
+}
+
+.header_link__link-list-item-no_bullit,
+.header_links-no-bullit{
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 12px;
+    list-style-type: none;
+}
+
+.header__link-list{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 18px;
+    margin-right: 17px;
+    margin-left: 18px;
+}
+
+.header__link-list-circle{ 
+    margin-right: 10px;
+    margin-left: 13px;
+    list-style-type: circle;
+
+}
+.header__address{
+    display: flex;
+    flex-wrap: wrap;
+    width: 256px;
+    height: 97px;
+    margin-left: 226px;
+
+}
+.header_link_aders {
+    text-decoration: none;
+}
+
+.address {
+    font-style: normal;
+    line-height: 24px;
+    font-size: 18px;
+
+}
+/* //---------------section_cover--------------// */
+
+.cover{
+    background-image: url(/images/cover.jpg);
+    height: 757px;
+    position: relative;
+    top: 92px;
+    background-size: cover;
+    padding: 170px 50px 50px;
+    font-size: 65px;
+    color: aliceblue;
+}
+
+.cover_title {
+    letter-spacing: 0.3em;
+    position: relative;
+
+}
+
+.aligned-text {
+    display:block;
+
+
+}
+.aligned-text_center {
+    text-align: center;
+    line-height: 114px;
+    display: block;
+    margin-top: 10px;
+    margin-right: 28px;
+
+}
+
+.aligned-text_right {
+    text-align: right;
+    line-height: 113px;
+    display: block;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 4px;
+}
+
+.letter-spacing-extended {
+    letter-spacing: 0.6em;
+    margin-left: 10px;
+    margin-left: 39px;
+}
+.letter-spacing-extened-1{
+    margin-right: 34px;
+}
+.letter-spacing-extened:first-child{
+    margin-left: 36px;
+}
+.no-letter-spacing {
+    letter-spacing: 0em;
+}
+/* -------------cover_description----------------- */
+.cover__description {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: 126px;
+    align-items: center;
+}
+
+.description_text {
+    font-size: 20px;
+    line-height: 28px;
+    text-transform: uppercase;
+    font-weight: normal;
+    word-spacing: 8px;
+}
+.bet-button {
+    width: 256px;
+    height: 51px;
+    font-size: 22px;
+    text-transform: uppercase;
+    border-color: white;
+    background: transparent;
+    color: white;
+}
+.cover__description-text {
+    letter-spacing: 3px;
+    margin-right: 77px;
+}
+
+.overlay::before {
+    content: '';
+    display: block;
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.536);
+}
+
+/* -------------lots----------------- */
+.lots {
+    position: relative;
+    top:280px;
+    
+}
+.lots__heading {
+    text-transform: uppercase;
+    color: black;
+    font-size: 40px;
+    margin-left: 65px;
+}
+.lots__card-list {
+    display:flex;
+}
+.lots__card-list-item {
+    width: 334px;
+    height: 563px;
+    background-color: aqua;
+    margin-left: 23px;
+    margin-top: 20px;
+    list-style-type: none;
+}
+
+.card__title {
+    text-transform: uppercase;
+    font-size: 22px;
+    color: aliceblue;
+    text-decoration: underline;
+    position: relative;
+}
+.card_type_film{
+    text-decoration-color: aliceblue;
+}
+.card__text {
+    color:aliceblue;
+   font-size: 20px;
+   font-weight: 400;
+   text-transform: none;
+   position: absolute;
+    bottom: 47px;
+    left: 41px;
+    right: 32px;
+}
+
+.lots__card-list-item:nth-child(1) {
+    background-image: url(/images/card-lot-01.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.lots__card-list-item:nth-child(2) {
+    background-image: url(/images/card-lot-02.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}.lots__card-list-item:nth-child(3) {
+    background-image: url(/images/card-lot-03.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.lots__card-list-item {
+    padding: 42px;
+    padding-top: 52px;
+    padding-left: 40px;
+    position: relative;
+}
+
+.lots__look-more-link {
+    font-size: 20px;
+    position: relative;
+    top: 31px;
+    left: 62px;
+}
+
+/*--------------------------- about------------------------------- */
+.about {
+    position: relative;
+    top: 492px;
+    left: 70px;
+}
+.about__logo {
+    background-color: black;
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+}
+img {
+    width: 148px;
+    height: 114px;
+    position: relative;
+    left: 45px;
+    top: 63px;
+
+}
+.txt_about {
+    position: relative;
+    display: flex;
+    text-align: center;
+    margin-left: 311px;
+    flex-direction: column;
+    align-items: flex-start;
+    bottom: 139px;
+}
+
+.about__text {
+    text-align: center;
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 101px;
+    margin-right: 165px;
+    text-align: left;
+    white-space: pre;
+}
+.about__title {
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+/*------------------- footer -----------------*/
+.footer {
+    display: flex;
+    position: relative;
+    top: 500px;
+    
+}
+
+.footer__info{
+    display: flex;
+    flex-wrap: wrap;
+    width: 256px;
+    height: 97px;
+    margin-left: 50px;
+    margin-top: 9px;
+}
+.footer__menu-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 152px;
+    height: 97px;
+    justify-content: center;
+    margin-left: 168px;
+    font-size: 18px;
+    line-height: 22px;
+}
+.footer__menu-list-item {
+    list-style-type: none;
+}
+.footer_link__link-list-item-no_bullit ,
+.footer__menu-link_active{
+    list-style-type: none;
+    text-decoration: none;
+}
+.footer__social-link {
+    display: flex  ;
+}
+
+.logo__footer{
+    margin: 7px;
+    max-width: 48px;
+    max-height: 48px;
+    margin-left: 44px;
+    top: 0;
+    left: 135px;
+}
