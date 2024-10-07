@@ -167,17 +167,6 @@
 }
 
 /* -------------lots----------------- */
-.cover {
-    position: relative;
-    background-image: url(../images/cover.jpg);
-    min-height: 757px;
-    margin-top: 99px;
-    background-position: center;
-    background-size: cover;
-    padding: 167px 50px 50px;
-    font-size: 65px;
-    color: #FFFFFF;
-}
 
 .lots {
     position: relative;
